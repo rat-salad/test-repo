@@ -1,9 +1,9 @@
 name=test-package
-description="tests package manager"
+description=tests package manager
 version=1.0.0
-files="/usr/bin/test-package", "/usr/bin/package-test"
-dependencies=""
-source="git+https://github.com/rat-salad/test-pkg.git"
+files=/usr/bin/test-package, /usr/bin/package-test
+dependencies=
+source=git+https://github.com/rat-salad/test-pkg.git
 
 install() {
 	install -Dm755 test-package /usr/bin/
