@@ -7,5 +7,5 @@ source=git+https://github.com/rat-salad/test-pkg.git
 
 install() {
 	install -Dm755 test-package /usr/bin/
-	install -Dm755 package-test /usr/bin
+	install -Dm755 package-test /usr/bin/
 }
