@@ -1,5 +1,5 @@
 name=test-package
-description="tests package manageroijhguvfycdxcfgvhj"
+description="tests package manager"
 version=1.0.0
 files="/usr/bin/test-package, /usr/bin/package-test"
 dependencies=""
