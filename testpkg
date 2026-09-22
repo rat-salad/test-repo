@@ -9,4 +9,4 @@ install() {
 	install -Dm755 test-package /usr/bin/
 	install -Dm755 package-test /usr/bin/
 }
-install()
+install
