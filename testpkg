@@ -1,4 +1,4 @@
-name=test-package
+name=testpkg
 description="tests package manager"
 version=1.0.0
 files="/usr/bin/test-package", "/usr/bin/package-test"
