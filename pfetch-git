@@ -7,6 +7,6 @@ dependencies=""
 source=git+https://github.com/dylanaraps/pfetch.git
 
 build() {
-	install -Dm755 pfetch /usr/bin/
+	install -Dm755 pfetch /bin/
 }
 build
