@@ -2,7 +2,7 @@
 name=pfetch-git
 description="A pretty system information tool written in POSIX sh."
 version=1.0.0
-files="/usr/bin/pfetch"
+files="/usr/bin/pfetch",
 dependencies=""
 source=git+https://github.com/dylanaraps/pfetch.git
 
