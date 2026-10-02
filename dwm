@@ -1,0 +1,11 @@
+name=dwm
+description="dwm is a dynamic window manager for X."
+version=1.0.0
+files="/usr/local/bin/dwm",
+dependencies=""
+source=git+https://git.suckless.org/dwm
+
+build() {
+    make clean install
+}
+build
