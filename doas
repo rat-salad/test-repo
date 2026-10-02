@@ -1,0 +1,12 @@
+name=doas
+description="The doas utility is a program originally written for OpenBSD which allows a user to run a command as though they were another user."
+version=1.0.0
+files="/usr/local/bin/doas","/usr/local/bin/vidoas","/usr/local/bin/doasedit",
+dependencies=""
+source=git+https://codeberg.org/thejessesmith/doas.git
+
+build() {
+    make
+    make install
+}
+build
