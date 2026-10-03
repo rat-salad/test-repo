@@ -8,5 +8,6 @@ source=git+https://github.com/tmux/tmux.git
 build() {
     sh autogen.sh
     ./configure && make
+    install -Dm755 tmux /usr/bin
 }
 build
